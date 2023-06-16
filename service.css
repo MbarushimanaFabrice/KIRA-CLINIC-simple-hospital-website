@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* ===================NAVIGATION=========================== */
+
+.navigation {
+	height: 8vh;
+	display: flex;
+	background-color: rgba(2, 86, 119, 255);
+	width: 100%;
+	text-align: start;
+	text-align: center;
+}
+
+.navs {
+	margin: 0px 7%;
+}
+
+.navs ul {
+	color: greenyellow;
+	list-style: none;
+	display: inline-flex;
+	margin: 11px 0px;
+
+}
+
+li a {
+	padding: 12px;
+	text-decoration: none;
+	margin: 40px;
+	color: white;
+	font-weight: 700;
+
+}
+
+li a:hover {
+	background-color: #b0b0ff;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+	text-decoration: underline;
+	color: black;
+
+}
+
+.active {
+	background-color: #b0b0ff;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+	text-decoration: underline;
+	color: black;
+
+}
+
+/* ===================END OFNAVIGATION=========================== */
+/* ========================conatiner============================== */
+.conatiner {
+	height: 92vh;
+	width: 100%;
+
+}
+
+.conatiner img {
+	height: 92vh;
+	width: 82%;
+}
+
+.myimage {
+	width: 60%;
+}
+
+/* ==================SERVICES========================== */
+.card {
+	background-color: #edebeb;
+	box-shadow: 1px 3px 8px rgba(109, 106, 106, 0.717);
+	border-radius: 5px;
+	padding: 46px;
+	line-height: 30px;
+	margin: 29px;
+	font-size: 17PX;
+	position: relative;
+
+}
+
+.service h1 {
+	text-align: center;
+	color: rgba(2, 86, 119, 255);
+
+}
+
+.conatiner {
+	display: inline-flex;
+}
+
+/* =========================about===================== */
+.about {
+	height: 70vh;
+	line-height: 51px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+/* contact */
+.contact {
+	width: 611px;
+	height: 75vh;
+
+}
+
+.conatiner input,
+textarea {
+	padding: 13px;
+	width: 100%;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+
+}
+
+label {
+	font-size: 21px;
+
+}
+
+button {
+	padding: 15px;
+	width: 100%;
+	font-size: 19px;
+	border: none;
+	border-radius: 4px;
+	background-color: #4141efaf;
+	color: white;
+}
+
+button:hover {
+	background-color: #4b4bee;
+	transition: 1s ease-in-out;
+}
+
+.icons {
+	position: absolute;
+	bottom: 3px;
+	text-align: center;
+	margin: 0px 192px;
+	cursor: pointer;
+}
+.icons i{
+	padding: 11px;
+	background: blue;
+	border-radius:50%;
+	color: white;
+	font-size:21px;
+	margin: 1px;
+
+}
+.icons i:hover{
+	background-color: #9090f6;
+	transition: 1s ease-in-out;
+}
+/* location */
+.service ul li{
+	list-style:circle;
+	padding: 11px;
+	font-size: 19px;
+}
+.service span{
+	font-style: italic;
+	font-weight: bold;
+}

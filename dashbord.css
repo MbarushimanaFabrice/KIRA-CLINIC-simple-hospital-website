@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+ 
+
+
+.navigation{
+	height: 8vh;
+	display: flex;
+	background-color: rgba(2,86,119,255);
+	width: 100%;
+	text-align: start;
+	text-align: center;
+
+
+}
+ 
+.navs{
+ 	margin: 0px 7%;
+}
+ul{
+	color: greenyellow;
+	list-style: none;
+	display: inline-flex;
+ 	margin: 11px 0px;
+ 	
+}
+li a{padding: 12px;
+text-decoration: none;
+margin: 40px;
+color: white;
+ font-weight: 700;
+
+}
+li a:hover{
+	background-color: #b0b0ff;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+	text-decoration:underline;
+	color: black;
+	
+}
+.active{
+	background-color: #b0b0ff;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+	text-decoration:underline;
+	color: black;
+
+}
+
+/* ========================conatiner============================== */
+.conatiner {
+	height: 92vh;
+	width: 100%;
+
+}
+
+.conatiner img {
+	height: 92vh;
+	width: 82%;
+}
+
+.myimage {
+	width: 60%;
+}
+/* ==============================NAVIGATION========================== */
+
+
+.navs{
+	margin: 0px 7%;
+}
+ul{
+   color: greenyellow;
+   list-style: none;
+   display: inline-flex;
+	margin: 21px -130px;
+	
+}
+li a{padding: 12px;
+text-decoration: none;
+margin: 40px;
+color: white;
+font-weight: 700;
+
+
+}
+li a:hover{
+   background-color: rgb(73, 73, 253);
+   border-radius: 5px;
+   transition: 1s ease-in-out;
+	color: azure;
+   
+}
+.active{
+   background-color: #b0b0ff;
+   border-radius: 5px;
+   transition: 1s ease-in-out;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==================SERVICES========================== */
+.card {
+	background-color: #edebeb;
+	box-shadow: 1px 3px 8px rgba(109, 106, 106, 0.717);
+	border-radius: 5px;
+ 	line-height: 30px;
+	margin: 29px;
+	font-size: 17PX;
+	position: relative;
+
+}
+.card h3{
+	font-weight: 100;
+	padding: 2px 0px 22px 3px;
+
+}
+
+.service h1 {
+	text-align: center;
+	color: rgba(2, 86, 119, 255);
+
+}
+
+.conatiner {
+	display: inline-flex;
+}
+.part1{
+	display: inline-flex;
+}
+.part1 .card{
+	padding: 79px;
+	
+
+}
+.part2{
+	display: inline-flex;
+}
+.part2 .card{
+	padding: 79px;
+	
+}
